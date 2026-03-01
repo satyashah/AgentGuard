@@ -1,0 +1,27 @@
+{
+  "name": "agentguard",
+  "version": "1.0.0",
+  "description": "Wrap OpenAI chat completions with in-memory usage tracking, spend limits, and breach callbacks",
+  "main": "dist/agentguard.js",
+  "types": "dist/agentguard.d.ts",
+  "type": "module",
+  "files": ["dist"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/AgentGuard.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "prepare": "npm run build",
+    "start": "tsx demo.ts",
+    "demo": "tsx demo.ts"
+  },
+  "dependencies": {
+    "openai": "^6.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "tsx": "^4.19.0"
+  }
+}
