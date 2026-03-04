@@ -118,8 +118,11 @@ AgentGuard is a work in progress. We’d love to hear from you if you:
 
 **Ways to connect:**
 
-- **LinkedIn:** [Reach out to me on LinkedIn](https://www.linkedin.com/in/satyashah) to discuss fixes, additions, or collaboration.
+- **LinkedIn:** [Reach out to me on LinkedIn](https://www.linkedin.com/in/seth-shah/) to discuss fixes, additions, or collaboration.
+
+<!-- 
 - **Schedule a call:** [Book a short meeting](https://calendly.com/satyashah) to talk through your use case or how you’d like to contribute. *(Replace this link with your actual Calendly or meeting URL.)*
+-->
 
 Contributions are welcome—whether it’s opening an issue, suggesting docs improvements, or sending a pull request.
 
