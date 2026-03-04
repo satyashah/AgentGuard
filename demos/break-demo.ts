@@ -10,7 +10,7 @@ import {
   type Breach,
   type PriceTable,
   type UsageEvent,
-} from "./agentguard";
+} from "../agentguard.js";
 
 /** Demo settings: custom token costs and spending limits (kept low to trip quickly). */
 type DemoSettings = {

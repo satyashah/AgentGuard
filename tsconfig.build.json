@@ -2,10 +2,10 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "dist",
-    "rootDir": ".",
+    "rootDir": "src",
     "declaration": true,
     "declarationMap": true
   },
-  "include": ["agentguard.ts"],
-  "exclude": ["node_modules", "dist", "demo.ts", "example"]
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist", "demos", "demo.ts", "example"]
 }
