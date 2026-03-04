@@ -20,19 +20,10 @@ Wrap OpenAI `chat.completions.create` with in-memory usage tracking, spend limit
 npm install github:satyashah/AgentGuard
 ```
 
-You also need the OpenAI SDK (peer dependency):
+You might also need the OpenAI SDK (peer dependency):
 
 ```bash
 npm install openai
-```
-
-### Install in this repo (development)
-
-```bash
-git clone https://github.com/satyashah/AgentGuard.git
-cd AgentGuard
-npm install
-npm run build
 ```
 
 ---
@@ -79,6 +70,16 @@ All usage is metered; if a limit is exceeded, the guard can warn or block (and o
 
 ## Demos (this repo)
 
+
+Install in this repo
+
+```bash
+git clone https://github.com/satyashah/AgentGuard.git
+cd AgentGuard
+npm install
+npm run build
+```
+
 After cloning and `npm install`:
 
 ```bash
@@ -117,8 +118,8 @@ AgentGuard is a work in progress. We’d love to hear from you if you:
 - Are interested in contributing
 
 **Ways to connect:**
-
-- **LinkedIn:** [Reach out to me on LinkedIn](https://www.linkedin.com/in/satya-shah-founder/) to discuss fixes, additions, or collaboration.
+- **Email:** Reach out to me at satyashahwork@gmail.com to discuss fixes, additions, or collaboration
+- **LinkedIn:** [Connect with me on LinkedIn](https://www.linkedin.com/in/satya-shah-founder/) to follow along with the progress!
 
 <!-- 
 - **Schedule a call:** [Book a short meeting](https://calendly.com/satyashah) to talk through your use case or how you’d like to contribute. *(Replace this link with your actual Calendly or meeting URL.)*
